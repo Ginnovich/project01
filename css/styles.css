@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, 'Helvetica Neue', Arial, sans-serif;
+    font-style: normal;
+}
+
+#about, #footer {
+    background: #245852;
+}
+
+a {
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.button {
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 13px 50px;
+    display: inline-block;
+    color: white;
+}
+
+h1, h2, h4, .number {
+    color: #01996D;
+    font-family: Georgia, serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 65px;
+    line-height: 74px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 50px;
+    width: 584px;
+    line-height: 157%;
+}
+
+h4 {
+    text-align: right;
+    font-size: 30px;
+    color: black;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h6 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+    padding: 30px 0;
+}
+
+.photo:hover .popup, .video:hover .popup {
+    opacity: 1;
+}
+
+.popup {
+    position: absolute;
+    transition: opacity 250ms ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* ---- /header ----- */
+
+#header {
+    border-bottom: 1px solid #D6D6D6;
+}
+
+#header > div {
+    height: 85px;
+    padding: 17px 71px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#header .logo {
+    padding-top: 7.15px;
+    font-weight: bold;
+    color: #01996D;
+    font-size: 30px;
+    float: left;
+}
+
+#header .exit {
+    float: right;
+    display: flex;
+}
+
+#header .signin {
+    padding: 13.8px 35px;
+}
+
+#header .signin a {
+    color:black;
+}
+
+#header .nav {
+    margin-left: 251px;
+    padding-top: 13.8px;
+}
+
+#header .nav ul {
+    display: flex;
+    list-style: none;
+}
+
+#header .nav li {
+    padding-right: 72px;
+}
+
+#header .nav li:last-child {
+    padding-right: 0;
+}
+
+#header .nav a {
+    color: #292929;
+}
+
+
+/* ---- /hero ----- */
+
+#hero {
+    background: url(../img/gradient.png), url(../img/lady.png );
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero > div {
+    height: 895px;
+    margin: 0 auto;
+    width: 1368px;
+    padding-top: 175px;
+    box-sizing: border-box;
+}
+
+/* ----- /work ----- */
+
+
+#work {
+    overflow: hidden;
+}
+
+#work > div {
+    width: 1413px;
+    margin: 110px auto;
+}
+
+#work .description {
+    float: right;
+    margin-top: -160px;
+    width: 671px;
+}
+
+#work .steps {
+    display: flex;
+    justify-content: space-between;
+}
+
+#work .together {
+    padding-bottom: 25px;
+}
+
+#work .step1 .together {
+    width: 269px;
+}
+
+#work .number {
+    font-weight: normal;
+    font-size: 150px;
+    color: rgba(1, 153, 109, 0.2);
+    line-height: 0.4;
+}
+
+#work img {
+    margin-top: 30px;
+}
+
+#work .step2 {
+    margin-top: 300px;
+}
+
+#work .step3 {
+    margin-top: 55px;
+}
+
+#work .step3 .together {
+    width: 226px;
+}
+
+/* ---- /about ----- */
+
+
+#about {
+    width: 100%;
+    overflow: hidden;
+}
+
+#about > div {
+    margin: 0 auto;
+    width: 1368px;
+    display: flex;
+    height: 922px;
+}
+
+#about .story {
+    width: 580px;
+    margin: 310px 31px 0 0;
+    color: white;
+}
+
+#about .story h2 {
+    color: white;
+    margin-bottom: 33px;
+}
+
+#about .story .button {
+    margin-top: 55px;
+}
+
+#about .video {
+    margin: auto;
+}
+
+#about .video .popup {
+    margin: 217px 407px;
+}
+
+/* ---- /diary ----- */
+
+#diary {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 120px 0 242.74px 0;
+}
+
+#diary .photo {
+    margin-right: 86.63px;
+    position: relative;
+}
+
+#diary .photo .popup {
+    top: 324.1px;
+    right: 403.23px;
+}
+
+#diary .product h5 {
+    margin-bottom: 10px;
+}
+
+/* ---- /footer ----- */
+
+#footer > div {
+    margin: 0 auto;
+    width: 1368px;
+    padding-top: 95px;
+}
+
+#footer .logo a{
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+#footer .nav ul{
+    list-style: none;
+}
+
+#footer .nav li, #footer .logo {
+    padding-bottom: 60px;
+}
+
+#footer .nav a {
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
